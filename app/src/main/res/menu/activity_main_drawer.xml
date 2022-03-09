@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_Salon"
+            android:icon="@drawable/ic_baseline_face_24"
+            android:title="Salon" />
+        <item
+            android:id="@+id/nav_Tailor"
+            android:icon="@drawable/ic_baseline_dry_cleaning_24"
+            android:title="Tailor" />
+        <item
+            android:id="@+id/nav_Gym"
+            android:icon="@drawable/gymmmmmmmmm"
+            android:title="Gym" />
+        <item
+            android:id="@+id/nav_Packages"
+            android:icon="@drawable/ic_baseline_card_giftcard_24"
+            android:title="Packages" />
+
+
+
+        <item
+            android:id="@+id/nav_HelpUs"
+            android:icon="@drawable/ic_baseline_help_outline_24"
+            android:title="Help Us" />
+        <item
+            android:id="@+id/nav_Policye"
+            android:icon="@drawable/ic_baseline_policy_24"
+            android:title="Privancy Policy" />
+        <item
+            android:id="@+id/nav_FeedBack"
+            android:icon="@drawable/ic_baseline_feedback_24"
+            android:title="Feedback" />
+
+
+
+
+
+
+
+    </group>
+</menu>

@@ -1,0 +1,35 @@
+package com.sortscript.shebeauty.ui.helpus;
+
+import android.os.Bundle;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.Fragment;
+
+import com.sortscript.shebeauty.R;
+
+public class HelpusFragment extends Fragment {
+
+    public View onCreateView(@NonNull LayoutInflater inflater,
+                             ViewGroup container, Bundle savedInstanceState) {
+
+
+        View root = inflater.inflate(R.layout.fragment_helpus, container, false);
+
+
+
+
+
+
+
+
+
+
+        return root;
+    }
+
+
+
+}

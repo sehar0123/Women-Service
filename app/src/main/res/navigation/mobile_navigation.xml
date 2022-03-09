@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.sortscript.shebeauty.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_Salon"
+        android:name="com.sortscript.shebeauty.ui.saloon.SaloonFragment"
+        android:label="Salon"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_Tailor"
+        android:name="com.sortscript.shebeauty.ui.tailor.TailorFragment"
+        android:label="Tailor"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_Gym"
+        android:name="com.sortscript.shebeauty.ui.Gym.GymFragment"
+        android:label="Gym"
+        tools:layout="@layout/fragment_package" />
+    <fragment
+        android:id="@+id/nav_Policye"
+        android:name="com.sortscript.shebeauty.ui.privancypolicy.PolicyFragment"
+        android:label="Privacy Policy"
+        tools:layout="@layout/fragment_policy" />
+    <fragment
+        android:id="@+id/nav_HelpUs"
+        android:name="com.sortscript.shebeauty.ui.helpus.HelpusFragment"
+        android:label="Help Us"
+        tools:layout="@layout/fragment_helpus" />
+    <fragment
+        android:id="@+id/nav_ContactUs"
+        android:name="com.sortscript.shebeauty.ui.contactus.ContactusFragment"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/nav_FeedBack"
+        android:name="com.sortscript.shebeauty.ui.Feedback.FeedbackFragment"
+        android:label="Feedback"
+        tools:layout="@layout/fragment_feedback" />
+    <fragment
+        android:id="@+id/nav_Packages"
+        android:name="com.sortscript.shebeauty.ui.Package.PackageFragment"
+        android:label="Packages"
+        tools:layout="@layout/fragment_packages" />
+
+
+
+</navigation>

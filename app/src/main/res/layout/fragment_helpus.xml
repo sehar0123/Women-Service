@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    tools:context=".ui.helpus.HelpusFragment">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fashion"></ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help us"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:fontFamily="@font/audiowideregular"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Help us allow the user to take help about  she beauty app This application system will allow the users to get three of the most needed
+services mentioned above no one is providing on a big scale in Pakistan. So we are making
+our women able to access these services by just sitting in their homes and book their choices.
+
+
+     Usually, many women are confused to select which salon is best or which tailor provides
+more reasonable prices according to their expenses.
+
+ Help us confirm you own this account  Can't log into my account.
+I keep getting this message every time I try to log in to my account. It suddenly popped up this morning when I went to open instagram, and I can't log in on any of my devices.
+ Reinstalling, restarting my phone, clearing cache, and resetting my password hasn't helped.
+ The only button that comes up with this message is to the help centre, where I can do literally nothing. I'm trying to log in with facebook because I have my account linked and it just comes up with an error message. If someone can help this would be greatly appreciated, because I am growing very frustrated with Instagram,
+
+Thank you.
+
+"
+      android:textColor="@color/black"
+        />
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663582864380",
+    "firebase_url": "https://shebeauty-f742f-default-rtdb.firebaseio.com",
+    "project_id": "shebeauty-f742f",
+    "storage_bucket": "shebeauty-f742f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663582864380:android:a6300793de8116a6a07879",
+        "android_client_info": {
+          "package_name": "com.sortscript.shebeauty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663582864380-is4g1qpurrdarfplteuqjl5gvfsv62gc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sortscript.shebeauty",
+            "certificate_hash": "23682175f864b34ba02833100eeefaa2cda80a73"
+          }
+        },
+        {
+          "client_id": "663582864380-5g4s3t2294d0oudd0anu5cf74of2rhjv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8NKMOXsopC_IXWdNsGDcUg_UoQpd_0Kk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663582864380-5g4s3t2294d0oudd0anu5cf74of2rhjv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

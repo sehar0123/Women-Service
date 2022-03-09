@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+xmlns:tools="http://schemas.android.com/tools"
+tools:context=".ui.Feedback.FeedbackFragment">
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="Email"
+    android:id="@+id/feedemail"
+    android:layout_margin="4dp"
+
+    android:inputType="textEmailAddress"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:hint="UserName"
+    android:id="@+id/feedname"
+    android:inputType="textEmailAddress"
+    />
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    android:hint="Feedback"
+    android:id="@+id/feedback"
+    android:inputType="textEmailAddress"
+    />
+<Button
+    android:layout_width="180dp"
+    android:layout_height="50dp"
+    android:gravity="center"
+    android:id="@+id/feedbutton"
+    android:layout_margin="4dp"
+    android:layout_gravity="center"
+    android:text="Send Feedback"
+    />
+
+
+
+</LinearLayout>
+
+
+
+

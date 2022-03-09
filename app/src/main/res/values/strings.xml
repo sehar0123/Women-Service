@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">SheBeauty</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">She Beauty</string>
+    <string name="nav_header_subtitle">shebeauty@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="description"><u> Description</u></string>
+    <string name="address"><u> Address</u></string>
+    <string name="menu_home">Home</string>
+    <string name="menu_Saloon">Salon</string>
+    <string name="menu_tailor">Tailor</string>
+    <string name="menu_gym">Gym</string>
+
+    <string-array name="category">
+
+        <item>Salon</item>
+        <item>GYM</item>
+        <item>Tailor</item>
+
+    </string-array>
+
+</resources>

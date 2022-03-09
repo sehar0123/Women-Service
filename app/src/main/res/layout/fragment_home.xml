@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+   android:layout_weight="10"
+
+
+    tools:context=".ui.home.HomeFragment">
+
+
+   <ViewFlipper
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_marginTop="10dp"
+       android:id="@+id/flipper"
+
+
+
+
+       />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:layout_margin="10dp"
+       android:weightSum="5"
+       android:orientation="horizontal">
+
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/swing1"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          app:cardCornerRadius="20dp"
+          android:layout_margin="10dp"
+
+
+          app:cardElevation="6dp">
+
+          >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+             android:gravity="center"
+
+             android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/machine" />
+
+
+            <TextView
+                android:id="@+id/t2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+
+                android:text="Tailor"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+         </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/salon2"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          app:cardCornerRadius="20dp"
+          android:layout_margin="10dp"
+
+          app:cardElevation="6dp"
+
+          >
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+             android:gravity="center"
+
+             android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/palor"
+
+
+                />
+
+            <TextView
+
+                android:id="@+id/t3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+
+                android:text="Salon"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+         </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+
+
+   </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:gravity="center"
+       android:weightSum="5"
+       android:orientation="horizontal">
+
+
+      <androidx.cardview.widget.CardView
+          android:id="@+id/fitness1"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          app:cardCornerRadius="20dp"
+          android:layout_margin="10dp"
+
+          app:cardElevation="6dp">
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:layout_gravity="center"
+             android:gravity="center"
+
+             android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/gym" />
+
+
+            <TextView
+                android:id="@+id/text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="GYM"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+         </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+      <androidx.cardview.widget.CardView
+          android:id="@+id/pack2"
+          android:layout_width="150dp"
+          android:layout_height="150dp"
+
+          app:cardCornerRadius="20dp"
+          android:layout_margin="10dp"
+
+          app:cardElevation="6dp"
+
+          >
+
+         <LinearLayout
+
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+
+             android:layout_gravity="center"
+             android:gravity="center"
+             android:orientation="vertical">
+
+            <ImageView
+
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:src="@drawable/pkg"
+
+
+                />
+
+            <TextView
+
+                android:id="@+id/t7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:gravity="center"
+                android:text="Packages"
+                android:textColor="#000"
+                android:textSize="24dp"
+                android:textStyle="bold" />
+
+         </LinearLayout>
+
+
+      </androidx.cardview.widget.CardView>
+
+
+
+
+
+</LinearLayout>
+
+
+</LinearLayout>
